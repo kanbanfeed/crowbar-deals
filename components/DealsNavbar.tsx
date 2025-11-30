@@ -21,7 +21,7 @@ export default function DealsNavbar() {
                 onClick={signInWithCrowbar}
                 className="px-5 py-2 rounded-xl bg-indigo-600 text-white"
               >
-                Sign In
+                Login with Crowbar
               </button>
             ) : (
               <button
