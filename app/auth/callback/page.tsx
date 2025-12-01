@@ -46,7 +46,7 @@ export default function AuthCallback() {
               
               // Redirect to dashboard
               setTimeout(() => {
-                router.push('/lessons')
+                router.push('/')
               }, 1500)
               return
             }
@@ -58,7 +58,7 @@ export default function AuthCallback() {
         if (session) {
           setStatus('success')
           setMessage('Welcome back! Redirecting to dashboard...')
-          setTimeout(() => router.push('/lessons'), 1000)
+          setTimeout(() => router.push('/'), 1000)
           return
         }
 
@@ -95,7 +95,7 @@ export default function AuthCallback() {
           <>
             <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-4" />
             <Crown className="w-8 h-8 text-amber-500 mx-auto mb-4" />
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome to Crowbar Academy!</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome to Crowbar Deals!</h2>
             <p className="text-gray-600">{message}</p>
           </>
         )}
