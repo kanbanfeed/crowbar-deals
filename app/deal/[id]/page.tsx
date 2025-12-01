@@ -1,13 +1,16 @@
 "use client";
 
-import { use } from "react";
 import { motion } from "framer-motion";
 import { Gift, ArrowLeft, Lock } from "lucide-react";
 
-export default function DealPlaceholder(props: any) {
-  const { id } = use(props.params);
+export default function DealPlaceholder({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const { id } = params;
 
-  // ✅ Convert "Flat_20%_Off_EcoWorldBuy" → "Flat 20% Off EcoWorldBuy"
+  // Convert "Flat_20%_Off_EcoWorldBuy" → "Flat 20% Off EcoWorldBuy"
   function formatId(str: string) {
     return decodeURIComponent(str.replace(/_/g, " ").trim());
   }
@@ -41,7 +44,7 @@ export default function DealPlaceholder(props: any) {
         animate={{ opacity: 1, y: 0 }}
         className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent text-center"
       >
-        Deal # {prettyId}  
+        Deal # {prettyId}
         <span className="block text-lg mt-2 text-white opacity-80">Coming Soon</span>
       </motion.h1>
 
