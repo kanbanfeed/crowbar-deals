@@ -9,7 +9,7 @@ export default function DealsFooter() {
           </p>
         </div>
         <div className="text-slate-400 text-sm">
-          © 2024 Crowbar Connected Network
+          © 2025 Crowbar Connected Network
         </div>
       </div>
     </footer>
