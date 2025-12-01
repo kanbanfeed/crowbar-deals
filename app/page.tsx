@@ -25,7 +25,7 @@ export default function CrowbarDealsPage() {
     },
     {
       id: 2,
-      title: "Priority Access – TalentKonnect",
+      title: "Access – TalentKonnect",
       description: "Fast-lane access for job applications.",
       icon: "💼",
     },
