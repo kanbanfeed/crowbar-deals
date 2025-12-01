@@ -24,18 +24,18 @@ export default function CrowbarDealsPage() {
   const { user, loading, signInWithCrowbar } = useAuth();
 
   const deals = [
-    { id: "flat-20-off-ecoworldbuy", title: "Flat 20% Off – EcoWorldBuy", description: "Save on all eco-friendly products.", icon: Leaf },
-    { id: "access-talentkonnect", title: "Access – TalentKonnect", description: "Fast-lane access for job applications.", icon: Briefcase },
-    { id: "careduel-premium-race-entry", title: "CareDuel Premium Race Entry", description: "Unlock premium wellness challenges.", icon: Activity },
-    { id: "skill-event-bonus-credits", title: "Skill Event Bonus Credits", description: "Earn double credits on weekly events.", icon: Rocket },
-    { id: "exclusive-product-drops", title: "Exclusive Product Drops", description: "Members-only store access.", icon: Gift },
-    { id: "crowbar-merch-discount", title: "Crowbar Merch Discount", description: "10% off all merchandise.", icon: ShoppingBag },
-    { id: "elite-webinar-access", title: "Elite Webinar Access", description: "Attend exclusive expert-led sessions.", icon: Mic },
-    { id: "marketplace-cashback", title: "Marketplace Cashback", description: "Get 5% cashback on selected deals.", icon: CreditCard },
-    { id: "extra-talent-credits", title: "Extra Talent Credits", description: "Boost your TalentKonnect rank.", icon: Star },
-    { id: "free-wellness-guide", title: "Free Wellness Guide", description: "Download Crowbar’s health starter kit.", icon: BookOpen },
-    { id: "study-booster-pack", title: "Study Booster Pack", description: "Get curated study materials.", icon: Book },
-    { id:"upgrade-offer", title:"Upgrade Offer", description:"Special 30% OFF for membership upgrade.", icon:Crown },
+    { id: "Flat-20-off-Ecoworldbuy", title: "Flat 20% Off – EcoWorldBuy", description: "Save on all eco-friendly products.", icon: Leaf },
+    { id: "Access-Talentkonnect", title: "Access – TalentKonnect", description: "Fast-lane access for job applications.", icon: Briefcase },
+    { id: "Careduel-Premium-race-entry", title: "CareDuel Premium Race Entry", description: "Unlock premium wellness challenges.", icon: Activity },
+    { id: "Skill-Event-Bonus-Credits", title: "Skill Event Bonus Credits", description: "Earn double credits on weekly events.", icon: Rocket },
+    { id: "Exclusive-Product-Drops", title: "Exclusive Product Drops", description: "Members-only store access.", icon: Gift },
+    { id: "Crowbar-Merch-Discount", title: "Crowbar Merch Discount", description: "10% off all merchandise.", icon: ShoppingBag },
+    { id: "Elite-Webinar-Access", title: "Elite Webinar Access", description: "Attend exclusive expert-led sessions.", icon: Mic },
+    { id: "Marketplace-Cashback", title: "Marketplace Cashback", description: "Get 5% cashback on selected deals.", icon: CreditCard },
+    { id: "Extra-Talent-Credits", title: "Extra Talent Credits", description: "Boost your TalentKonnect rank.", icon: Star },
+    { id: "Free-Wellness-Guide", title: "Free Wellness Guide", description: "Download Crowbar’s health starter kit.", icon: BookOpen },
+    { id: "Study-Booster-Pack", title: "Study Booster Pack", description: "Get curated study materials.", icon: Book },
+    { id:"Upgrade-Offer", title:"Upgrade Offer", description:"Special 30% OFF for membership upgrade.", icon:Crown },
   ];
 
   return (

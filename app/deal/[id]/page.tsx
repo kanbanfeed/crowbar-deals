@@ -41,7 +41,7 @@ export default function DealPlaceholder(props: any) {
         animate={{ opacity: 1, y: 0 }}
         className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent text-center"
       >
-        {prettyId}  
+        Deal # {prettyId}  
         <span className="block text-lg mt-2 text-white opacity-80">Coming Soon</span>
       </motion.h1>
 
