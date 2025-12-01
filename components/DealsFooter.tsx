@@ -1,6 +1,6 @@
 export default function DealsFooter() {
   return (
-    <footer className="mt-20 bg-slate-900 text-white py-10">
+    <footer className=" bg-slate-900 text-white py-10">
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         <div>
           <h4 className="text-lg font-semibold">Crowbar Deals</h4>
